@@ -4,11 +4,11 @@
 **Graduation Project for:** Faculty of Computer and Automation  
 **Inspiration:** The increasing number of forest fires in recent years, especially in Syria, motivated us to develop a project that can detect fires early to minimize their damage.
 
-**Summary:** Design and Build Forest Fire Detection System Using WSN (Wireless Sensor Network)
+
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [The Problem](#the-problem)
-3. [Result of the Problem](#result-of-the-problem)
+1. [Summary](#summary)
+2. [Introduction](#introduction)
+3. [The Problem and Its Impact](#the-problem-and-its-impact)
 4. [Our Solution](#our-solution)
 5. [System Description](#system-description)
 6. [System Components](#system-components)
@@ -20,25 +20,29 @@
 12. [Credits](#credits)
 
 ---
+## 1. Summary <a name="summary"></a>
 
-## 1. Introduction <a name="introduction"></a>
+**Fireguard** demonstrates the power of integrating IoT and WSN technologies in forest fire detection. With sensor nodes actively monitoring environmental conditions and alerting authorities, the system helps reduce fire damage by providing timely and actionable data. The project highlights the application of our skills in IoT, software development, and hardware design, offering a scalable solution to an increasingly relevant global issue
+
+---
+
+## 2. Introduction <a name="introduction"></a>
 Forest fires have been increasingly devastating over the last few years, destroying thousands of hectares of forest land. In particular, our homeland Syria has faced significant damage from these fires. Early detection and prompt action are essential to minimize the destruction and protect both human lives and natural resources.
 
 ---
 
-## 2. The Problem <a name="the-problem"></a>
-The rapid spread of forest fires, combined with delayed detection, often results in large-scale damage. Traditional methods for detecting and reporting fires are slow and inefficient, which leads to delays in mobilizing firefighters and other emergency services. There is an urgent need for a solution that detects forest fires in real time and alerts the relevant authorities immediately, allowing them to respond faster.
+## 3. The Problem and Its Impact <a name="the-problem-and-its-impact"></a>
+The rapid spread of forest fires, combined with delayed detection, often results in large-scale damage. Traditional methods for detecting and reporting fires are slow and inefficient, leading to delays in mobilizing firefighters and other emergency services.
 
----
+### Impact of the Problem
 
-## 3. Result of the Problem <a name="result-of-the-problem"></a>
 Over the past years, there has been a sharp increase in the number of fires globally and specifically in Syria. Here are some real data:
 
 - **Year 2020**: Over **500** fires were reported in forests across Syria, with **80,000 hectares** burned.
 - **Year 2021**: Fires increased by **25%**, further damaging vast areas.
 - **Year 2022**: **10% more** fires, causing irreversible environmental harm.
 
-These numbers highlight the pressing need for a better detection and response system.
+These statistics underscore the urgency for a solution that can detect fires early and allow for quicker response.
 
 ---
 
@@ -93,23 +97,25 @@ This diagram provides a high-level overview of how data flows from the forest to
 ## 8. Technology & Hardware Used <a name="technology--hardware-used"></a>
 ### Hardware:
 
-- 2x ESP32 Microcontrollers
-- DHT11 Temperature Sensor
-- MQ9 Gas Sensor
-- XL9006 Voltage Regulator
-- TP4056 Battery Charging Module
-- 5000mAh 3.7V Lithium Battery
-- 2W Solar Panel
-- Custom PCB Circuit
-- 3D-printed components
-- LED indicators, switches
+- 2x **ESP32** Microcontrollers
+- **DHT11** Temperature Sensor
+- **MQ9** Gas Sensor
+- **XL9006** Voltage Regulator
+- **TP4056** Battery Charging Module
+- **5000mAh 3.7V Lithium Battery**
+- **2W Solar Panel**
+- **Custom PCB Circuit**
+- **3D-printed components**
+- **LED** indicators, **switche**
 
 ### Software:
-- Arduino IDE (C++)
-- PHP & MySQL for backend server
-- Symfony & Swagger for API development
-- Flutter for mobile app and web dashboard development
-- WordPress for the landing page
+- **Arduino IDE** (C++)
+- **PHP** & **MySQL** for backend server
+- **Symfony** & **Swagger** for API development
+- **Flutter** for mobile app and web dashboard development
+- **WordPress** for the landing page
+- **EasyEDA** for PCB design
+- **Autodesk Inventor** for 3D modeling of hardware components
 
 ## 9. Results and Conclusion <a name="results-and-conclusion"></a>
 
