@@ -1,5 +1,9 @@
 # FireGuard 
 
+<p >
+  <img src="./images/logo.png" alt="Fireguard Logo" width="300"/>
+</p>
+
 **Project Name:** FireGuard  
 **Graduation Project for:** Faculty of Computer and Automation  
 **Inspiration:** The increasing number of forest fires in recent years, especially in Syria, motivated us to develop a project that can detect fires early to minimize their damage.
