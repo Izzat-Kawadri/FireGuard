@@ -58,7 +58,8 @@ These statistics underscore the urgency for a solution that can detect fires ear
 <p align="center">
    <img src="./images/main/ourSolution.png" alt="Our Solution" width="500"/>
 </p>  
-Our solution, **Fireguard**, is an IoT-based Wireless Sensor Network (WSN) system designed to detect forest fires early. The system consists of the following main components:
+
+**Fireguard**, is an IoT-based Wireless Sensor Network (WSN) system designed to detect forest fires early. The system consists of the following main components:
 
 <p align="center">
    <img src="./images/main/sensorNode.png" alt="Sensor Node" width="100"/>
