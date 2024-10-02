@@ -6,6 +6,8 @@
 
 **Project Name:** FireGuard  
 **Graduation Project for:** Faculty of Computer and Automation  
+**Project Date:** 2024 
+
 **Inspiration:** The increasing number of forest fires in recent years, especially in Syria, motivated us to develop a project that can detect fires early to minimize their damage.
 
 
@@ -14,7 +16,7 @@
 2. [Introduction](#introduction)
 3. [The Problem and Its Impact](#the-problem-and-its-impact)
 4. [Our Solution](#our-solution)
-5. [System Description](#system-description)
+5. [Scenario](#scenario)
 6. [System Components](#system-components)
 7. [Block Diagram (DFD)](#block-diagram)
 8. [Technology & Hardware Used](#technology--hardware-used)
@@ -62,18 +64,32 @@ Our solution, **Fireguard**, is an IoT-based Wireless Sensor Network (WSN) syste
 
 ---
 
-## 5. System Description <a name="system-description"></a>
-The **Fireguard** system is designed for efficient and low-power operation. Here's how it works:
+## 5. Scenario <a name="scenario"></a>
+The following steps illustrate how **Fireguard** works in practice to detect and respond to fires:
 
-1. **Sensor Nodes**: These nodes are equipped with various sensors (DHT11 for temperature, MQ9 for smoke and gases). They monitor environmental conditions in the forest. The nodes are connected to a gateway using LoRa communication, enabling long-range data transmission. The nodes are programmed to go into sleep mode to conserve power when not actively transmitting.
-  
-2. **Gateway**: The gateway gathers data from all sensor nodes and sends it to the backend server using Wi-Fi or a cellular connection.
+### Step 1: Sensor Deployment
+Sensors are deployed in strategic locations within the forest, dividing it into zones. Each zone contains one or more sensors, with each sensor assigned a unique identifier and geographical coordinates (longitude and latitude) for precise fire location detection.
 
-3. **Backend Server**: The server processes the data, stores it in a MySQL database, and updates the fire center's dashboard.
+### Step 2: Data Collection and Processing
+The sensors periodically measure environmental conditions (e.g., temperature, gas levels) according to the sampling time, which is set based on the battery capacity and solar panel charging ability. These readings are processed locally within the sensor node.
 
-4. **Dashboard**: The dashboard provides real-time data to the fire centers, helping them make informed decisions. They can assign tasks to firefighters based on the fire's location and severity.
+### Step 3: Data Transmission 
+The processed sensor data and device status are sent to the gateway. The sensor nodes then enter deep sleep mode to conserve battery power, especially in remote forest areas where continuous power supply is challenging.
 
-5. **Mobile App**: Firefighters receive their tasks and updates via a mobile app built using Flutter, which helps them respond quickly and efficiently.
+### Step 4: Gateway Processing and Data Prioritization
+The gateway receives data from multiple sensor nodes simultaneously. It processes the incoming data and prioritizes any values indicating fire risks for immediate transmission to the backend. This ensures quick detection and response to potential fire hazards.
+
+### Step 5: Gateway to Backend Communication
+The gateway, which has a continuous internet connection, sends the sensor data to the backend server over the internet for further analysis and storage.
+
+### Step 6: Backend Application Processing
+The backend application processes the incoming data and stores it in a MySQL database. This ensures that the dashboard can display up-to-date sensor readings from the forest zones.
+
+### Step 7: Fire Station Dashboard Monitoring
+The fire station uses a dashboard to monitor sensor statuses and values continuously. If a fire is detected, the dashboard allows personnel to assign tasks to the nearest firefighting team based on the location of the fire.
+
+### Step 8: Firefighter Notifications and Response
+Each firefighting team uses the mobile app, which sends them a notification if they are assigned a task. The app displays the latest status of the forest and provides the optimal path to reach the fire location. Firefighters can then proceed to the site and take necessary actions.
 
 ---
 
