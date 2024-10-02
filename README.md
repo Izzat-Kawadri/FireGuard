@@ -53,7 +53,20 @@ These statistics underscore the urgency for a solution that can detect fires ear
 ---
 
 ## 4. Our Solution <a name="our-solution"></a>
+
+
+<p align="center">
+   <img src="./images/main/ourSolution.png" alt="Our Solution" width="500"/>
+</p>  
 Our solution, **Fireguard**, is an IoT-based Wireless Sensor Network (WSN) system designed to detect forest fires early. The system consists of the following main components:
+
+<p align="center">
+   <img src="./images/main/sensorNode.png" alt="Sensor Node" width="100"/>
+   <img src="./images/main/gateway.png" alt="Gateway" width="100"/>
+   <img src="./images/main/Backend.png" alt="Backend" width="100"/>
+   <img src="./images/main/dashboard.png" alt="Dashboard" width="200"/>
+   <img src="./images/main/mobile.png" alt="Mobile App" width="65"/>
+</p>
 
 1. **Sensor Nodes**: Placed in strategic locations in forests to measure temperature, smoke, and gas levels.
 2. **Gateway**: Collects data from sensor nodes and sends it to the backend server.
@@ -65,6 +78,11 @@ Our solution, **Fireguard**, is an IoT-based Wireless Sensor Network (WSN) syste
 ---
 
 ## 5. Scenario <a name="scenario"></a>
+
+<p >
+  <img src="./images/main/Scenario.png" alt="Scenario" />
+</p>
+
 The following steps illustrate how **Fireguard** works in practice to detect and respond to fires:
 
 ### Step 1: Sensor Deployment
@@ -106,9 +124,9 @@ Each component of our system has its own dedicated README file:
 ## 7. Block Diagram (DFD) <a name="block-diagram"></a>
 The system follows a simplified Data Flow Diagram (DFD) to show the flow of data between components:
 
-```
-[Sensor Node] ---> [Gateway] ---> [Backend Server] ---> [Dashboard] ---> [Firefighters' Mobile App]
-```
+<p >
+  <img src="./images/Diagrams/dfd_Diagram.png" alt="DFD Diagram" />
+</p>
 
 This diagram provides a high-level overview of how data flows from the forest to the firefighters.
 
