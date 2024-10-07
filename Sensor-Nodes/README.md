@@ -54,6 +54,7 @@ The process flow of the sensor node involves:
 <p align="center">
   <img src="./PCB/Schematic.png" alt="Schematic" width="500"/>
 </p>
+
 The electronic design of the sensor node was created using EasyEDA. The primary components include:
 - **ESP32**: Controls the sensors and manages communication.
 - **DHT11**: Measures temperature.
@@ -69,6 +70,7 @@ The electronic design of the sensor node was created using EasyEDA. The primary 
   <img src="./PCB/pcb2.PNG" alt="top layer" width="300"/>
    <img src="./PCB/pcb3.PNG" alt="bottom layer" width="300"/>
 </p>
+
 After finalizing the schematic, we designed the **PCB** to integrate all components efficiently and minimize size. The design was exported as Gerber files, ready for PCB manufacturing.
 
 ### 2.4 3D Design <a name="3d-design"></a>
@@ -107,6 +109,10 @@ We implemented the software for the sensor nodes using **Arduino IDE**. The code
 
 ### 3.2 PCB Printing <a name="pcb-printing"></a>
 We exported the Gerber files and sent them for PCB fabrication. Once the PCBs were printed, we assembled the components, tested the connections, and verified functionality.
+
+<p align="center">
+  <img src="./PCB/pcb4.png" alt="jpg" width="400"/>
+</p>
 
 ### 3.3 3D Model Printing <a name="3d-model-printing"></a>
 The 3D case designed in **Autodesk Inventor** was printed using a 3D printer. The case was built to protect the PCB and ensure long-term durability in forest conditions.
