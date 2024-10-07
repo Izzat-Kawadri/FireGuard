@@ -1,5 +1,9 @@
 # Fireguard - Gateway 
 
+<p align="center">
+  <img src="../images/main/gateway.png" alt="gateway" width="200"/>
+</p>
+
 **Project Name:** Fireguard   
 **Component:** Gateway  
 **Date:** 2024  
@@ -65,10 +69,10 @@ The software for the gateway was developed using **Arduino IDE**. The code follo
 5. Continuously monitor the network for new data from the sensor nodes.
 
 ### 3.2 PCB Printing <a name="pcb-printing"></a>
-The PCB design was exported as Gerber files and sent for fabrication. Once the PCBs were printed, we soldered the components and tested the connections to ensure that the gateway operated as expected. This process is identical to the [Sensor Nodes PCB Printing](#) process.
+The PCB design was exported as Gerber files and sent for fabrication. Once the PCBs were printed, we soldered the components and tested the connections to ensure that the gateway operated as expected.
 
 ### 3.3 3D Model Printing <a name="3d-model-printing"></a>
-We printed the 3D model enclosure designed in **Autodesk Inventor** using a 3D printer. The enclosure was tested for proper fitting and protection of the internal components, following the same steps as in the [Sensor Nodes 3D Printing](#) section.
+We printed the 3D model enclosure designed in **Autodesk Inventor** using a 3D printer. The enclosure was tested for proper fitting and protection of the internal components.
 
 ### 3.4 The First Prototype <a name="the-first-prototype"></a>
 For the first prototype, we selected the **ESP32** microcontroller due to its Wi-Fi capabilities and low power consumption. The gateway connects to the ESP mesh network, receives data from the sensor nodes, and sends the data to the backend HTTP server.
