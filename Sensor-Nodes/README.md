@@ -1,5 +1,9 @@
 # Fireguard - Sensor Nodes 
 
+<p align="center">
+  <img src="../images/main/sensorNode.png" alt="sensorNode" width="200"/>
+</p>
+
 **Project Name:** Fireguard - Forest Fire Detection System  
 **Component:** Sensor Nodes  
 **Date:** 2024  
@@ -35,14 +39,21 @@ The sensor nodes are the core elements of the **Fireguard** system, responsible 
 ## 2. The Design Process <a name="the-design-process"></a>
 
 ### 2.1 Define the Process of the Device <a name="define-the-process-of-the-device"></a>
-i[process](./Software/SensorNode.drawio.png)
+
+<p align="center">
+  <img src="./Software/SensorNode.drawio.png" alt="process" width="300"/>
+</p>
+
 The process flow of the sensor node involves:
-1. **Data Collection**: Sensors like DHT11 (temperature) and MQ9 (gas) are used to monitor environmental conditions.
+1. **Data Collection**: Sensors like DHT11 (Temperature,Humidity) and MQ9 (CO gas) are used to monitor environmental conditions.
 2. **Data Processing**: The node performs edge computing to analyze data locally, determining if the fire conditions are met.
 3. **Communication**: The node sends sensor data and status updates to the gateway using Wi-Fi (PainlessMesh library).
 4. **Power Management**: Nodes enter deep sleep mode to conserve energy and operate on solar power.
 
 ### 2.2 Schematic Design <a name="schematic-design"></a>
+<p align="center">
+  <img src="./PCB/Schematic.png" alt="Schematic" width="500"/>
+</p>
 The electronic design of the sensor node was created using EasyEDA. The primary components include:
 - **ESP32**: Controls the sensors and manages communication.
 - **DHT11**: Measures temperature.
@@ -51,10 +62,29 @@ The electronic design of the sensor node was created using EasyEDA. The primary 
 - **TP4056**: Handles charging of the 5000mAh lithium battery, either through USB during testing or using a solar panel in the field.
 
 ### 2.3 PCB Design <a name="pcb-design"></a>
+<p align="center">
+  <img src="./PCB/pcb1.png" alt="pcb" width="300"/>
+</p>
+<p align="center">
+  <img src="./PCB/pcb2.PNG" alt="top layer" width="300"/>
+   <img src="./PCB/pcb3.PNG" alt="bottom layer" width="300"/>
+</p>
 After finalizing the schematic, we designed the **PCB** to integrate all components efficiently and minimize size. The design was exported as Gerber files, ready for PCB manufacturing.
 
 ### 2.4 3D Design <a name="3d-design"></a>
 To protect the sensor node from environmental conditions (e.g., rain, dust), we designed a 3D model of the case using **Autodesk Inventor**. The enclosure provides protection for both the PCB and sensors while ensuring airflow for accurate sensor readings.
+<p align="center">
+  <img src="./3D-Design/1.png" alt="1" width="600"/>
+</p>
+<p align="center">
+  <img src="./3D-Design/2.png" alt="2" width="600"/>
+</p>
+<p align="center">
+  <img src="./3D-Design/3.png" alt="3" width="600"/>
+</p>
+<p align="center">
+  <img src="./3D-Design/4.png" alt="4" width="600"/>
+</p>
 
 ### 2.5 Power Consumption Study <a name="power-consumption-study"></a>
 A simple study was conducted to estimate power consumption and optimize battery life. To achieve this, we:
