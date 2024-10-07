@@ -114,8 +114,8 @@ Each firefighting team uses the mobile app, which sends them a notification if t
 
 ## 6. System Components <a name="system-components"></a>
 Each component of our system has its own dedicated README file:
-- [Sensor Nodes](./SensorNode/README.md)
-- [Gateway](./Gateway/README.md)
+- [Sensor Nodes](./Sensor-Nodes/)
+- [Gateway](./Gateway/)
 - [Backend Server](./BackendServer/README.md)
 - [Dashboard](./Dashboard/README.md)
 - [Mobile App](./MobileApp/README.md)
