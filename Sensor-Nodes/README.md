@@ -111,7 +111,7 @@ We implemented the software for the sensor nodes using **Arduino IDE**. The code
 We exported the Gerber files and sent them for PCB fabrication. Once the PCBs were printed, we assembled the components, tested the connections, and verified functionality.
 
 <p align="center">
-  <img src="./PCB/pcb4.png" alt="jpg" width="400"/>
+  <img src="./PCB/pcb4.jpg" alt="pcb4" width="400"/>
 </p>
 
 ### 3.3 3D Model Printing <a name="3d-model-printing"></a>
