@@ -1,4 +1,9 @@
-# Fireguard - Backend Component
+# Fireguard - Backend Server 
+
+<p align="center">
+  <img src="../images/main/Backend.png" alt="Backend" width="150"/>
+</p>
+
 
 
 **Project Name:** Fireguard 
@@ -33,21 +38,26 @@ The **Backend Component** of the **Fireguard** system handles all data transacti
 In the initial phase, we focused on designing the system's structure and relationships. Several UML diagrams were created to visualize the backend's architecture and data flow.
 
 ### 2.1 Use Case Diagram <a name="use-case-diagram"></a>
-![Use Case Diagram](./UML/useCase.png)
+<p align="center">
+  <img src="./UML/useCase.png" alt="Use Case Diagram" height="500"/>
+</p>
 
 **Description**:  
 The use case diagram illustrates the interactions between different users (Captain Fire Bridge, Admin,Device) and the system. Each actor has specific roles:
 - **Admin**:
   - Manage user accounts.
-  - oversee system functions.
-  - monitor sensor data in real-time.
-  - assign tasks.
+  - Oversee system functions.
+  - Monitor sensor data in real-time.
+  - Assign tasks.
 - **Captain Fire Bridge**: Receive tasks and alerts via mobile apps.
 - **Device**: Send sensor data,fire detection state.
 
 
 ### 2.2 Class Diagram <a name="class-diagram"></a>
-![Class Diagram](./UML/class.png)
+
+<p align="center">
+  <img src="./UML/class.png" alt="Class Diagram" height="500"/>
+</p>
 
 **Description**:  
 - The class diagram shows the backend's object-oriented structure
@@ -55,13 +65,20 @@ The use case diagram illustrates the interactions between different users (Capta
 - These classes interact through various methods to manage data flow, task assignments, and system status.
 
 ### 2.3 ERD (Entity-Relationship Diagram) <a name="erd-diagram"></a>
-![ERD Diagram](./UML/erd.png)
+
+<p align="center">
+  <img src="./UML/erd.png" alt="ERD Diagram" height="500"/>
+</p>
 
 **Description**:  
 The ERD shows how the database tables are related.
 
 ### 2.4 Activity Diagram <a name="activity-diagram"></a>
-![Activity Diagram](./UML/activity.png)
+
+
+<p align="center">
+  <img src="./UML/activity.png" alt="Activity Diagram" width="300"/>
+</p>
 
 **Description**:  
 The activity diagram shows the workflow of detecting a fire and responding to it:
@@ -89,6 +106,11 @@ We would like to extend our thanks to them for their support in hosting the serv
 ---
 
 ## 4. Testing Process <a name="testing-process"></a>
+
+<p align="center">
+  <img src="../images/Screenshots/Swagger.png" alt="Swagger UI" width="400"/>
+</p>
+
 To ensure the reliability and correctness of our APIs, we integrated **Swagger UI** for API testing. Swagger provides an interactive interface for testing different API calls, allowing us to verify that all CRUD operations work as expected.
 
 ### Testing Features:
