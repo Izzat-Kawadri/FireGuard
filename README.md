@@ -28,6 +28,10 @@
 ---
 ## 1. Summary <a name="summary"></a>
 
+<p >
+  <img src="./images/logo.png" alt="Fireguard Logo" width="100"/>
+</p>
+
 **Fireguard** demonstrates the power of integrating IoT and WSN technologies in forest fire detection. With sensor nodes actively monitoring environmental conditions and alerting authorities, the system helps reduce fire damage by providing timely and actionable data. The project highlights the application of our skills in IoT, software development, and hardware design, offering a scalable solution to an increasingly relevant global issue
 
 ---
@@ -116,7 +120,7 @@ Each firefighting team uses the mobile app, which sends them a notification if t
 Each component of our system has its own dedicated README file:
 - [Sensor Nodes](./Sensor-Nodes/)
 - [Gateway](./Gateway/)
-- [Backend Server](./BackendServer/README.md)
+- [Backend Server](./Backend-Server/)
 - [Dashboard](./Dashboard/README.md)
 - [Mobile App](./MobileApp/README.md)
 
