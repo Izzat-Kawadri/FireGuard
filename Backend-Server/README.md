@@ -108,10 +108,15 @@ We would like to extend our thanks to them for their support in hosting the serv
 ## 4. Testing Process <a name="testing-process"></a>
 
 <p align="center">
-  <img src="../images/Screenshots/Swagger.png" alt="Swagger UI" width="400"/>
+  <img src="../images/Screenshots/Swagger1.png" alt="Swagger UI" width="800"/>
 </p>
 
 To ensure the reliability and correctness of our APIs, we integrated **Swagger UI** for API testing. Swagger provides an interactive interface for testing different API calls, allowing us to verify that all CRUD operations work as expected.
+
+<p align="center">
+  <img src="../images/Screenshots/Swagger2.png" alt="Swagger UI" width="800"/>
+</p>
+
 
 ### Testing Features:
 - **CRUD API Testing**: Testing the ability to create, read, update, and delete sensor data, tasks, and user information.
