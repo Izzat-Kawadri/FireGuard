@@ -1,4 +1,4 @@
-# Fireguard - Dashboard Component
+# Fireguard - Dashboard 
 
 <p align="center">
   <img src="../images/main/dashboard.png" alt="dashboard" width="300"/>
