@@ -117,12 +117,91 @@ Each firefighting team uses the mobile app, which sends them a notification if t
 ---
 
 ## 6. System Components <a name="system-components"></a>
-Each component of our system has its own dedicated README file:
-- [Sensor Nodes](./Sensor-Nodes/)
-- [Gateway](./Gateway/)
-- [Backend Server](./Backend-Server/)
-- [Dashboard](./Dashboard/README.md)
-- [Mobile App](./MobileApp/README.md)
+
+The **Fireguard** system consists of several key components, each with its own responsibilities. Below is an overview of each component and links to their respective README files, where you can find detailed design and implementation processes.
+
+### 1. Sensor Nodes
+The sensor nodes are deployed in forest areas to detect fire-related data (e.g., temperature, humidity, gas levels) and transmit this information to the gateway.
+
+- [Sensor Nodes README](./Sensor-Nodes/)
+  - **Introduction**
+  - **Design Process**:
+    1. Define the process of the device
+    2. Schematic design
+    3. PCB design
+    4. 3D design
+    5. Power consumption study
+  - **Implementation Process**:
+    1. Software development
+    2. PCB and 3D model printing
+    3. Solar power integration
+    4. First prototype development
+
+### 2. Gateway
+The gateway collects data from the sensor nodes and sends it to the backend server for further processing.
+
+- [Gateway README](./Gateway/)
+  - **Introduction**
+  - **Design Process**:
+    1. Define the process of the gateway
+    2. Schematic design
+    3. PCB design
+    4. 3D design
+  - **Implementation Process**:
+    1. Software development
+    2. PCB and 3D model printing
+    3. First prototype development
+
+### 3. Backend
+The backend is responsible for storing sensor data, managing tasks, and providing APIs to other system components.
+
+- [Backend README](./Backend-Server/)
+  - **Introduction**
+  - **Design Process**:
+    1. UML diagrams: use case, class, ERD, activity diagrams
+  - **Implementation Process**:
+    1. MySQL database setup
+    2. CRUD API development using Symfony
+   
+  - **Testing Process**:
+    1. Swagger UI for API testing
+
+### 4. Dashboard
+The dashboard is used by fire stations to monitor sensor data, manage fires, and assign tasks to firefighting teams.
+
+- [Dashboard README](./Dashboard/)
+  - **Introduction**
+  - **Design Process**:
+    1. UI and graphic identity design using Figma
+  - **Implementation Process**:
+    1. Dashboard built using Flutter with clean architecture
+    2. Pages:
+       - Login page
+       - Home page (map, sensor status, fire station, fire bridge)
+       - Fire alerts and task assignment
+       - Device, forest, and fire bridge management
+       - Charts for sensor data
+       - History and device value tracking
+
+### 5. Mobile App
+The mobile app allows fire brigades to receive tasks, navigate to fire locations, and update their status.
+
+- [Mobile App README](./Mobile-App)
+  - **Introduction**
+  - **Design Process**:
+    1. UI design using Figma
+  - **Implementation Process**:
+    1. App built using Flutter with clean architecture
+    2. Pages:
+       - Logo widget
+       - Login widget
+       - Home widget (map, tasks, SOS button)
+       - Task management and status updates
+       - History, profile, and settings widgets
+
+
+
+Each component plays a vital role in the overall system, working together to create an efficient and reliable forest fire detection and response system. You can find more details and the technical specifics in the respective component README files linked above.
 
 ---
 
@@ -188,15 +267,31 @@ We would like to acknowledge the following team members who contributed to the d
 
 | Name              | Role                        | LinkedIn                                   |
 |-------------------|-----------------------------|--------------------------------------------|
-| **Izzat Kawadri**| IOT Developer               | [LinkedIn Profile](#) |
+| **Izzat Kawadri**| IOT Developer               | [LinkedIn Profile](www.linkedin.com/in/izzat-kawadri) |
 | **Mohammed al Dawaish**| Hardware Developer           | [LinkedIn Profile](#) |
-| **Obada Tarazi**| Software Developer (Backend) | [LinkedIn Profile](#) |
-| **Mohammad al Hajjar**| Software Developer (Mobile,Dashboard)  | [LinkedIn Profile](#) |
+| **Obada Tarazi**| Software Developer (Backend) | [LinkedIn Profile](https://www.linkedin.com/in/obada-tarazi) |
+| **Mohammad al Hajjar**| Software Developer (Mobile,Dashboard)  | [LinkedIn Profile](https://www.linkedin.com/in/mohammad-al-hajjar-a9814a264) |
 
 Each team member played a vital role in making the **Fireguard** project a success. Feel free to reach out to them via LinkedIn for more information on their contributions and areas of expertise.
 
+### Project Supervisor
 
-- **Supervisors**: Professor [Sami AL Issa]
-- **Special thanks to** [CupCoding ,StorageGuard Team,EVO Tech ].
+
+| Name              | Role                        | LinkedIn                                   |
+|-------------------|-----------------------------|--------------------------------------------|
+| **Dr. Sami AL Issa**| guiding us through the project with valuable insights and feedback.| [LinkedIn Profile](https://www.linkedin.com/in/sami-al-issa-a7871a129) |
+
+### Special Thanks
+
+
+| Name              | Role                        | Link                                   |
+|-------------------|-----------------------------|--------------------------------------------|
+| **CupCoding**| providing the hosting services needed to run our backend system and make it available online.| [Link](https://www.linkedin.com/company/cupcoding) |
+| **Mahmoud alsaeed**|invaluable technical assistance and hands-on help during the implementation phase.| [Link](https://github.com/ma21alsaeed) |
+| **EVO Tech**| providing essential logistics support, ensuring that our prototype was built and delivered successfully.  | [Link](http://Evo-tech.sy) |
+
+
+
+---
 
 We hope this project inspires others to explore the intersection of IoT and environmental conservation!
