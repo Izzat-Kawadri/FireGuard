@@ -267,7 +267,7 @@ We would like to acknowledge the following team members who contributed to the d
 
 | Name              | Role                        | LinkedIn                                   |
 |-------------------|-----------------------------|--------------------------------------------|
-| **Izzat Kawadri**| IOT Developer               | [LinkedIn Profile](www.linkedin.com/in/izzat-kawadri) |
+| **Izzat Kawadri**| IOT Developer               | [LinkedIn Profile](https://www.linkedin.com/in/izzat-kawadri) |
 | **Mohammed al Dawaish**| Hardware Developer           | [LinkedIn Profile](#) |
 | **Obada Tarazi**| Software Developer (Backend) | [LinkedIn Profile](https://www.linkedin.com/in/obada-tarazi) |
 | **Mohammad al Hajjar**| Software Developer (Mobile,Dashboard)  | [LinkedIn Profile](https://www.linkedin.com/in/mohammad-al-hajjar-a9814a264) |
